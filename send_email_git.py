@@ -11,8 +11,8 @@ def hotmail_send(subject,text):
     mail_user = "*********************"  #账号
     mail_pass = "***********"#密码
 
-    sender = 'jiaxu12342292@gmail.com'
-    receivers = ['jiaxu1234@qq.com']  # 接收邮件，可设置为你的QQ邮箱或者其他邮箱
+    sender = '******************'#发件人地址
+    receivers = ['*******']  # 接收邮件地址，可设置为你的QQ邮箱或者其他邮箱
 
     time_china = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
     print time_china
